@@ -1,0 +1,64 @@
+body {
+    font-family: "Helvetica Neun", Helvetica, Arial, sans-serif;
+    font-size: 15px;
+    padding: 10px;
+    
+}
+
+h1 {
+    position: relative;
+
+}
+
+div.box1 {
+    width: 500px;
+    height: 2000px;
+    position: relative;
+    right: -30%;
+    background-color: slategray;
+}
+
+
+div.fotoprofil {
+    width: 0px;
+    height: 0px;
+    position: relative;
+    background-color: brown;
+    left: 148px;
+}
+
+div.datap {
+    top: 260px;
+    position: relative;
+    left: 2%;
+}
+
+div.dataperson {
+    top: 250px;
+    left: 10px;
+    position: relative;
+}
+
+div.dataschool {
+    top: 250px;
+    left: 10px;
+    position: relative;
+}
+
+div.datamedia {
+    top: 250px;
+    left: 10px;
+    position: relative;
+}
+
+div.dataskill {
+    top: 250px;
+    left: 10px;
+    position: relative;
+}
+
+div.contactsaya {
+    top: 250px;
+    left: 10px;
+    position: relative;
+}
