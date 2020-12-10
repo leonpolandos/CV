@@ -41,7 +41,7 @@ div {
     left: 100px;
     background-color: slategray; /* Green */
     border: none;
-    color: rgb(85, 74, 74);
+    color: rgb(85, 74);
     text-align: center;
     text-decoration: none;
     display: inline-block;
@@ -127,7 +127,7 @@ a {
 #buttonChangepp {
     background-color: slategray; /* Green */
     border: none;
-    color: rgb(85, 74, 74);
+    color: rgb(85, 74);
     text-align: center;
     text-decoration: none;
     display: inline-block;
@@ -143,7 +143,7 @@ a {
 #Change-background {
     background-color: slategray; /* Green */
     border: none;
-    color: rgb(85, 74, 74);
+    color: rgb(85, 74);
     text-align: center;
     text-decoration: none;
     display: inline-block;
@@ -159,7 +159,7 @@ a {
 #button-proses {
     background-color: slategray; /* Green */
     border: none;
-    color: rgb(85, 74, 74);
+    color: rgb(85, 74);
     text-align: center;
     text-decoration: none;
     display: inline-block;

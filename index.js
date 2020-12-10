@@ -24,22 +24,25 @@ function Changepp() {
   
   let visibleButton = document.getElementById("buttonChangepp");
   visibleButton.style.visibility = "hidden";
+  document.getElementById('header').innerText = "Profil Photo Changed!";
 
 }
 
-function changeColour(value)
-{
+function changeColour(value){
     let color = document.body.style.backgroundColor;
     switch(value)
     {
         case 'b':
             color = "#F0F8FF";
+            document.getElementById('header').innerText = "Color Changed to AliceBlue!";
         break;
         case 'r':
             color = "#008B8B";
+            document.getElementById('header').innerText = "Color Changed to DarkCyan!";
         break;
         case 'p':
             color = "#778899";
+            document.getElementById('header').innerText = "Color Changed to LightSlateGray!";
         break;
     }
     document.body.style.backgroundColor = color;
