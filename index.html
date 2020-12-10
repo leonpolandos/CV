@@ -3,154 +3,179 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./Css/style.css">
+    <link rel="stylesheet" href="./Css/index.css">
+    <script></script>
     <title>Personal CV</title>
 </head>
 <body>
-    <div class="box1">
-        <div class="fotoprofil">
-            <a href="#datasosmed">
-                <img src="../CV/img/circle-cropped.jpg" alt="centered image" width="200"/>
+    <div id="header" ></div>
+    <div id="all-header">
+        <div class="stuff">
+            <br><br>
+            <h1>Leonard Polandos CV</h1>
+            <a href="#datapribadi">
+                    <img id="foto-profil1" src="./img/circle-cropped (1).png" alt="centered image" width="200" id="foto-profil1"/>
+                    <img src="./img/circle-cropped (2).png" alt="unklab image" width="200" id="foto-profil2" />
             </a>
-        </div>
-
-        <div class="datap">
-            <a class="datacolor">
-                <a href="#datapribadi">DATA PRIBADI |</a>
-                <a href="#datapendidikan">DATA PENDIDIKAN |</a>
-                <a href="#datasosmed">TENTANG SAYA |</a>
-                <a href="#datakemampuan">SKILL |</a>
-                <a href="#contactme"> CONTACT ME </a>
-                <hr/>
-            </a>
-        </div>
-        <div class="dataperson">
+            <div>
+                <a href="#datapribadi">Data Pribadi |</a>
+                <a href="#datapendidikan">Data Pendidikan |</a>
+                <a href="#datasosmed">Tentang Saya |</a>
+                <a href="#datakemampuan">Skills |</a>
+                <a href="#contactme">Contact Me </a>
+                <button onclick="Changepp()" id="buttonChangepp"> Change Profill Photo </button>
+                <button onclick="Refresh()" id="Refresh"> Refresh </button>
+                <div id= "body-color">
+                    Change Your Body Background-Color:
+                    <form name="music" method="post" action="">
+                    <p>
+                    <input type="radio" name="color" value="radio" onClick="changeColour('b')">Alice Blue
+                    <input type="radio" name="color" value="radio" onClick="changeColour('r')">Dark Cyan
+                    <input type="radio" name="color" value="radio" onClick="changeColour('p')">Light Slate Gray
+                    </form>
+                </div>
+            <hr /> 
+            </div>
+            <!-- Batas -->
+            <hr />
+            <br>
+            <h4 class="head">Data Pribadi</h4>
+            <hr/>
             <section id="datapribadi">
-                <h1>DATA PRIBADI</h1>
-                <p>Nama : Leonard Petter Polandos</p>
-                <p>Tempat, Tanggal Lahir : Tembagapura, 25-06-99</p>
-                <p>Jenis Kelamin : Laki-Laki</p>
-                <p>Agama : Katolik</p>
-                <p>Nama Orang Tua :
-                <ol>
-                    <li>Jantje Polandos</li>
-                     <li>Gertje Dumanauw</li>
-                </ol>
-                </p>
-                 <p>Tinggi Badan : 175</p>
-                 <p>ALAMAT : Kaima, kec.Kauditan</p>
-                <p>Hobbies : Bermain Basket, Coding</p>
-                <p>Status : Belum menikah</p>
-                <hr>
+                <div class="data-pribadi-div">
+                    <p>Nama : Leonard Petter Polandos</p>
+                    <p>Tempat, Tanggal Lahir : Tembagapura, 25-06-99</p>
+                    <p>Jenis Kelamin : Laki-Laki</p>
+                    <p>Agama : Katolik</p>
+                    <p>Nama Orang Tua :
+                    <ol>
+                        <li>Jantje Polandos</li>
+                         <li>Gertje Dumanauw</li>
+                    </ol>
+                    </p>
+                     <p>Tinggi Badan : 175cm</p>
+                     <p>ALAMAT : Kaima, kec.Kauditan</p>
+                    <p>Hobbies : Bermain Basket, Coding</p>
+                    <p>Status : Belum menikah</p>
+                </div>
+                <hr/>
             </section>
-        </div>
-        <div class="dataschool">
-            <section id="datapendidikan">
-                <h1>DATA PENDIDIKAN</h1>
+
+            <!-- Batas -->
+    
+            <h4 class="head"> Data Pendidikan </h4>
+            <hr/>
+            <div class="dataschool">
+                <section id="datapendidikan">
                     <h4>FORMAL :</h4>
-                <p>TK : TK YPJ Tembagapura</p>
-                <p>Sekolah Dasar : SD YPJ Tembagapura</p>
-                <p>Smp : SMP YPJ Tembagapura</p>
-                <p>SMA : <a href="http://www.unklab.ac.id/" target="_blank">SMA UNKLAB AIRMADIDI</a></p>
-                
-                <h4>NON-FORMAL :</h4>
-                <table border="1" cellspacing="0" cellpadding="10">
-                    <thead>
-                        <tr>
-                            <th>PENDIDIKAN</th>
-                            <th>Tahun Mulai</th>
-                            <th>Tahun Selesai</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <th>Kursus Belajar B.Inggris</th>
-                            <th>2010</th>
-                            <th>2011</th>
-                        </tr>
-                        <tr>
-                            <th>Pelatihan basket</th>
-                            <th>2012</th>
-                            <th>2013</th>
-                        </tr>
-                        <tr>
-                            <th>Pelatihan Paskibraka</th>
-                            <th>2013</th>
-                            <th>2013</th>
-                        </tr>
-                      </tbody>
+                    <p>TK : TK YPJ Tembagapura</p>
+                    <p>Sekolah Dasar : SD YPJ Tembagapura</p>
+                    <p>Smp : SMP YPJ Tembagapura</p>
+                    <p>SMA : <a href="http://www.unklab.ac.id/" target="_blank">SMA UNKLAB AIRMADIDI</a></p>
+                    
+                    <h4>NON-FORMAL :</h4>
+                    <table border="1" cellspacing="0" cellpadding="10">
+                        <thead>
+                            <tr>
+                                <th>PENDIDIKAN</th>
+                                <th>Tahun Mulai</th>
+                                <th>Tahun Selesai</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <th>Kursus Belajar B.Inggris</th>
+                                <th>2010</th>
+                                <th>2011</th>
+                            </tr>
+                            <tr>
+                                <th>Pelatihan basket</th>
+                                <th>2012</th>
+                                <th>2013</th>
+                            </tr>
+                            <tr>
+                                <th>Pelatihan Paskibraka</th>
+                                <th>2013</th>
+                                <th>2013</th>
+                            </tr>
+                          </tbody>
+                        </table>
+                        <hr>
+                </section>
+            </div>
+                <!--BATAS-->
+            </ul>
+            <h4 class="head">Tentang Saya</h4>
+            <hr/>
+            <div class="datamedia">
+                <section id="datasosmed">   
+                    <a href="https://web.facebook.com/Lpolandos?_rdc=1&_rdr" target="_blank">
+                        <img src="./img/fb_icon_325x325.png" width="25" > Leonard Polandos
+                    </a>
+                    <p></p>
+                    <a href="https://twitter.com/lpolandos?lang=en" target="_blank">
+                        <img src="./img/unnamed.png" width="25" > Leonard Polandos
+                    </a>
+                    <p>Nomor Handphone : +6281398396249</p>
+                    <p>EMAIL :
+                        <ol>
+                            <li>leonpolandos@yahoo.com</li>
+                            <li>s21710452@student.unklab.ac.id</li>
+                          </ol>
+                    </p>
+                    <hr>
+                </section>
+            <hr>
+            <h4 class="head">Skills</h4>
+            <div class="dataskill">
+                <section id="datakemampuan">
+                    
+                    <table border="1" cellspacing="0" cellpadding="10">
+                        <thead>
+                            <tr>
+                                <th>INTEREST</th>
+                                <th>INTERSETED</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <th>Desain</th>
+                                <th>Adobe Photoshop</th>
+                            </tr>
+                            <tr>
+                                <th>Sports</th>
+                                <th>Basketball</th>
+                            </tr>
+                            <tr>
+                                <th>PEMOGRAMAN</th>
+                                <th>Javascript & C++</th>
+                            </tr>
+                        </tbody>
                     </table>
                     <hr>
                 </section>
-        </div>
-        <div class="datamedia">
-            <section id="datasosmed">   
-                <h1>TENTANG SAYA</h1>
-                <a href="https://web.facebook.com/Lpolandos?_rdc=1&_rdr" target="_blank">
-                    <img src="../CV/img/fb_icon_325x325.png" width="25" > Leonard Polandos
-                </a>
-                <p></p>
-                <a href="https://twitter.com/lpolandos?lang=en" target="_blank">
-                    <img src="../CV/img/unnamed.png" width="25" > Leonard Polandos
-                </a>
-                <p>Nomor Handphone : +6281398396249</p>
-                <p>EMAIL :
-                    <ol>
-                        <li>leonpolandos@yahoo.com</li>
-                        <li>s21710452@student.unklab.ac.id</li>
-                      </ol>
-                </p>
-                <hr>
-            </section>
-        </div>
-        <div class="dataskill">
-            <section id="datakemampuan">
-                <h1>SKILLS</h1>
-                <table border="1" cellspacing="0" cellpadding="10">
-                    <thead>
-                        <tr>
-                            <th>INTEREST</th>
-                            <th>INTERSETED</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <th>Desain</th>
-                            <th>Adobe Photoshop</th>
-                        </tr>
-                        <tr>
-                            <th>Sports</th>
-                            <th>Basketball</th>
-                        </tr>
-                        <tr>
-                            <th>PEMOGRAMAN</th>
-                            <th>Javascript & C++</th>
-                        </tr>
-                    </tbody>
-                </table>
-                <hr>
-            </section>
-        </div>
-        <div class="contactsaya">
-            <section id="contactme">
-                <h1>CONTACT ME</h1>
-            
-                <label for="email">Your Email :</label>
-                <input type="text" name="email"/><br>
-                <p></p>
-                <label for="name">Your Name :</label>
-                <input type="text" name="name"/><br>
-            
-                <p></p>
-            
-                <label for="info" >Pesan Anda :</br>
-            
-                    <textarea rows="4" cols="50" placeholder="Tulis komentar Anda di sini...."></textarea>
-                    <p></p> 
-                    <button>proses</button>
-            </section>
+            </div>
+    
+            <div class="contactsaya">
+                <section id="contactme">
+                    <h1>CONTACT ME</h1>
+                
+                    <label for="email" >Your Email :</label>
+                    <input type="text" name="email" id="your-email"/><br>
+                    <p></p>
+                    <label for="name">Your Name :</label>
+                    <input type="text" id='your-name' name="name"/><br>
+                
+                    <p></p>
+                
+                    <label for="info" >Pesan Anda :</br>
+                
+                        <textarea rows="4" cols="50" placeholder="Tulis komentar Anda di sini...." id="text-area"></textarea>
+                        <p></p> 
+                        <button onclick='Sent()' id="button-proses">proses</button>
+                </section>
+            </div>
         </div>
     </div>
-    
+    <script src="./index.js"></script> 
 </body>
-</html>

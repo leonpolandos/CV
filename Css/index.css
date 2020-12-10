@@ -1,0 +1,190 @@
+* {
+    max-width: 700px;
+    margin: auto;
+    
+}
+
+.left-foto {
+    position: absolute;
+    right: 100%;
+}
+  
+div {
+    border-radius: 5px;
+}
+  
+#header {
+    height: 40px;
+    width: 100%;
+    background-color: ivory;
+    position: fixed;
+    z-index: 1;
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+#all-header{
+    background-color: steelblue;
+    border-radius: 5%;
+    
+}
+
+#foto-profil2 {
+    position: relative;
+    right: 204px;
+    visibility: hidden;
+}
+
+#Refresh {
+    position: relative;
+    left: 100px;
+    background-color: slategray; /* Green */
+    border: none;
+    color: rgb(85, 74, 74);
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif black;
+    font-weight: bold;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border-radius: 10%;
+}
+  
+#title {
+    margin-left: 3%;
+}
+  
+#footer {
+   height: 50px;
+   width: 100%;
+   background-color: blue;
+   clear: both;
+   position: relative;
+}
+  
+.left {
+    height: 1000px;
+    width: 45px;
+    background-color: blue;
+    float: left;
+    position: fixed;
+}
+  
+.right {
+    height: 1000px;
+    width: 45px;
+    background-color: blue;
+    float: right;
+    position: inherit;
+}
+  
+.stuff {
+    display: inline-block;
+    margin-top: 6px;
+    margin-left: 55px;
+    width: 75%;
+    height: 1000px;
+}
+  
+  
+p, li {
+    font-family: 'Cormorant Garamond';
+}
+
+div.datamedia {
+    font-family: cursive;
+}
+
+div.dataschool{
+    font-family: cursive;
+}
+  
+.head {
+    font-size: 20px;
+}
+
+.data-pribadi-div {
+    font-size: 15px;
+    font-weight: 400;
+}
+  
+#name {
+    font-family: Sacramento;
+    float: right;
+    margin-top: 10px;
+    margin-right: 4%;
+}
+  
+a {
+    color: black;
+    text-decoration: none;
+}
+
+#buttonChangepp {
+    background-color: slategray; /* Green */
+    border: none;
+    color: rgb(85, 74, 74);
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif black;
+    font-weight: bold;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border-radius: 10%;
+}
+
+#Change-background {
+    background-color: slategray; /* Green */
+    border: none;
+    color: rgb(85, 74, 74);
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif black;
+    font-weight: bold;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border-radius: 10%;
+}
+
+#button-proses {
+    background-color: slategray; /* Green */
+    border: none;
+    color: rgb(85, 74, 74);
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif black;
+    font-weight: bold;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border-radius: 10%;
+}
+
+.button-proses:hover {
+    background-color: #4CAF50; /* Green */
+    color: white;
+  }
+
+  
+@media only screen and (max-width: 430px) {
+    .left,
+    .right {
+      display: inherit;
+    }
+    .stuff {
+      width: 100%;
+      margin-left: 10px;
+    }
+}
